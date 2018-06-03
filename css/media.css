@@ -1,0 +1,125 @@
+@media screen and (max-width: 960px) {
+	.container {
+		width: 90%
+	}
+	nav {
+		display: none;
+	}
+	h3 {
+		text-align: center;
+	}
+	.background {
+		width: 100%;
+	}
+	.advantages {
+		width: 100%;
+	}
+	.advantage__list_item {
+		margin-right: 20%
+	}
+	.advantage__list_item:first-child {
+		margin-left: 8%
+	}
+	
+	.contacts {
+		width: 90%;
+		float: left;
+	}
+	.resume {
+		float:right;
+	}
+	.skills__item {
+		margin-right: 13%;
+	}
+	.skills__item:first-child {
+		margin-left: 8%;
+	}
+	.skills__digit {
+		width: 100%;
+		float: none;
+	}
+	.skills__desc {
+		float: none;
+		text-align: center;
+		margin-left: 0px;
+		width: 61px;
+	}
+	.works__list {
+		overflow: hidden;
+
+	}
+	.works__item {
+		float: none;
+		display: block;
+		width: 300px;
+		margin: 0 auto 50px auto;
+	}
+	.works__item:last-child {
+    	margin-right: auto;
+	}
+	.overlay {
+
+	}
+	footer {
+		padding:80px 0 70px 0;
+	}
+}
+
+
+/*------мобильные------*/
+@media screen and (max-width: 728px) {
+	.logo {
+		padding-right:0;
+	}
+	h1 {
+		font-size: 49px;
+		margin-top: 160px;
+	}
+	.head_description{
+		padding-bottom: 180px;
+	}
+	.background__text {
+		margin-bottom: 20px;
+	}
+	.advantage__list_item {
+		margin-right: 0;
+		float: none;
+		display: inline;
+		text-align: center;
+	}
+	.advantage__list_digit {
+		margin: 0 auto;
+	}
+	.advantage__list_desc {
+		width: auto;
+		margin-bottom: 40px;
+	}
+	.advantage__list_item:first-child {
+    	margin-left: 0;
+	}
+	.skills__item {
+		float: none;
+		margin-right: 0;
+	}
+	.skills__item:first-child {
+		margin-left: 0;
+	}
+	.skills__desc {
+		width: auto;
+		margin-left: auto;
+		width: auto;
+	}
+}
+@media screen and (max-width: 550px) {
+	.contacts__list {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.resume {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+
+}
